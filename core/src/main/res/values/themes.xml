@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Vinyx" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Vinyx.HomeTitle">
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:textColor">?colorOnBackground</item>
+        <item name="android:textSize">@dimen/home_title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Theme.Vinyx.HomeGenre">
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textColor">?colorOnBackground</item>
+        <item name="android:textSize">@dimen/home_genre</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Theme.Vinyx.HomeRating">
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textColor">?colorOnBackground</item>
+        <item name="android:textSize">@dimen/home_rating</item>
+    </style>
+
+    <style name="Theme.Vinyx.Error">
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">?colorOnBackground</item>
+        <item name="android:textSize">@dimen/error</item>
+    </style>
+
+    <style name="Theme.Vinyx.RoundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+</resources>

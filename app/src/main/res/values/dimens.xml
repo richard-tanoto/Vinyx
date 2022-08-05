@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_title">16sp</dimen>
+    <dimen name="home_rating">12sp</dimen>
+    <dimen name="home_genre">12sp</dimen>
+    <dimen name="error">16sp</dimen>
+    <dimen name="detail_title">18sp</dimen>
+    <dimen name="detail_title_collapsed">20sp</dimen>
+    <dimen name="detail_title_expanded">30sp</dimen>
+    <dimen name="detail_genre">14sp</dimen>
+    <dimen name="detail_rating">14sp</dimen>
+    <dimen name="detail_description">14sp</dimen>
+    <dimen name="detail_description_spacing">4sp</dimen>
+</resources>

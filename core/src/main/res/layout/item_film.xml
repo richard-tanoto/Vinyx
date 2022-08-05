@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/item_bg_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/games"
+        android:scaleType="centerCrop"
+        app:shapeAppearance="@style/Theme.Vinyx.RoundedImage"
+        app:layout_constraintDimensionRatio="9:5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/sample" />
+
+    <TextView
+        android:id="@+id/tv_home_name"
+        style="@style/Theme.Vinyx.HomeTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintTop_toBottomOf="@id/item_bg_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Grand Theft Auto V" />
+
+    <TextView
+        android:id="@+id/tv_home_genres"
+        style="@style/Theme.Vinyx.HomeGenre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_home_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Action \u2022 Adventure" />
+
+    <ImageView
+        android:id="@+id/ic_home_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star_filled"
+        app:tint="@color/yellow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_home_genres"
+        android:contentDescription="@string/rating" />
+
+    <TextView
+        android:id="@+id/tv_home_rating"
+        style="@style/Theme.Vinyx.HomeRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_home_star"
+        app:layout_constraintStart_toEndOf="@id/ic_home_star"
+        app:layout_constraintTop_toTopOf="@id/ic_home_star"
+        tools:text="4.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

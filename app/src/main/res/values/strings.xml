@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Vinyx</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="games">Games</string>
+    <string name="rating">Rating</string>
+    <string name="description">Description</string>
+    <string name="genres">Genres</string>
+    <string name="games_list">Games List</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_games">Favorite Games</string>
+    <string name="home_error">Oops! Something\'s wrong \nPlease try again later</string>
+    <string name="detail_empty">The favorite list is empty. \nAdd some games to your favorite list</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
